@@ -99,3 +99,91 @@ body {
     transform: scale(1.1); /* Slight zoom */
   }
   
+  /* Responsive Design */
+@media (max-width: 1024px) {
+    .landing-left img {
+      width: 300px;
+      height: 400px;
+    }
+  
+    .landing {
+      padding: 40px 20px;
+      flex-direction: column;
+    }
+  
+    .landing-right {
+      padding-left: 0;
+      text-align: center;
+    }
+  
+    .landing-right h1,
+    .landing-right h2 {
+      font-size: 28px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 20px;
+    }
+  
+    .navbar {
+      margin-top: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  
+    .navbar a {
+      margin: 0;
+      font-size: 14px;
+    }
+  
+    .logo {
+      font-size: 32px;
+    }
+  
+    .landing-left img {
+      width: 250px;
+      height: 350px;
+    }
+  
+    .landing-right h1,
+    .landing-right h2 {
+      font-size: 24px;
+    }
+  
+    .social-icons a {
+      width: 40px;
+      height: 40px;
+      font-size: 18px;
+      margin: 10px 8px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .landing-left img {
+      width: 200px;
+      height: 280px;
+    }
+  
+    .landing-right h1,
+    .landing-right h2 {
+      font-size: 20px;
+    }
+  
+    .header {
+      align-items: center;
+    }
+  
+    .navbar {
+      justify-content: center;
+    }
+  
+    .logo {
+      font-size: 28px;
+    }
+  }
+  
